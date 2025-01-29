@@ -54,7 +54,7 @@ export default function Home() {
     {
       title: "Chat Application",
       description: "Tech-stack: Reactjs, Appwrite . The frontend was built with Reactjs. Authentication being handled by Appwrite. The backend was built with Appwrite Cloud. State management with useContext hook.",
-      tech: ["React", "Material UI", "Rapid API", "Responsive Design"],
+      tech: ["React", "Appwrite", "Appwrite Cloud", "Responsive Design"],
       links: {
         live: "https://chat-application-tau-ten.vercel.app/",
         github: "https://github.com/priyansh0202-coder/Chat-application"
