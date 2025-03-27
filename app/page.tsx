@@ -88,12 +88,12 @@ export default function Home() {
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-12 md:py-20 lg:py-32">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="text-lg md:text-3xl lg:text-xl font-bold mb-4 bg-gradient-to-r from-primary to-primary-foreground bg-clip-text text-transparent"> Hi I'm Priyansh Soni  </span>
+          <span className="text-lg md:text-3xl lg:text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-primary-foreground bg-clip-text text-gray-300"> Hi I'm Priyansh Soni  </span>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 mt-3 bg-gradient-to-r from-primary to-primary-foreground bg-clip-text text-transparent">
-            Frontend Developer
+            Full Stack Developer
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground mb-12 md:mb-16 lg:mb-20 max-w-2xl mx-auto px-4">
-            Passionate about creating seamless user experiences and building scalable web applications
+          <p className=" text-lg md:text-xl text-muted-foreground mb-12 md:mb-16 lg:mb-20 lg:min-w-full px-4">
+            A Full Stack Developer passionate about building scalable web applications with seamless frontend and backend integration. Skilled in React, Next.js, Node.js, and MongoDB, MySQL with a strong focus on problem-solving and performance optimization.
           </p>
 
           <div className="flex justify-center gap-4 mb-12">
@@ -103,7 +103,7 @@ export default function Home() {
                   <Button variant="outline" size="icon" className="hover:scale-110 transition-transform">
                     <Link href="https://github.com/priyansh0202-coder">
                       <Github className="h-5 w-5" />
-                      </Link>
+                    </Link>
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>GitHub</TooltipContent>
@@ -115,14 +115,14 @@ export default function Home() {
                   <Button variant="outline" size="icon" className="hover:scale-110 transition-transform">
                     <Link href="https://www.linkedin.com/in/priyansh-soni-625ab2220/">
                       <Linkedin className="h-5 w-5" />
-                      </Link>
+                    </Link>
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>LinkedIn</TooltipContent>
               </Tooltip>
             </TooltipProvider>
           </div>
-          
+
           {/* Contact Information */}
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-2 text-muted-foreground hover:scale-105 transition-transform">
@@ -142,7 +142,7 @@ export default function Home() {
       </div>
 
       {/* Journey Section */}
-      <section className="container mx-auto px-4 py-4 lg:py-10">
+      <section className="container mx-auto px-4 py-4 lg:py-4">
         <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">My Journey</h2>
         <div className="max-w-3xl mx-auto">
           {journey.map((step, index) => (
@@ -169,12 +169,12 @@ export default function Home() {
           <p className="text-muted-foreground mb-2">Miler Inc (Internship) | Remote</p>
           <p className="text-sm text-muted-foreground mb-4">Nov 2024 - Present</p>
           <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-            <li>Created responsive visually appealing pages using React and Tailwind CSS</li>
-            <li>Applied server-side rendering and dynamic routing in Next.js</li>
+            <li>Developed 10+ visually appealing, responsive pages utilizing React and Tailwind CSS</li>
+            <li>Applied server-side rendering and dynamic routing in Next.js, increasing SEO</li>
             <li>Reduced runtime errors by 30% using TypeScript</li>
             <li>Achieved 25% faster load times through optimization</li>
-           <li> Integrated RESTful APIs to fetch product data and authenticate users,
-                resulting in a 15% reduction in data fetch latency.</li> 
+            <li> Integrated RESTful APIs to fetch product data and authenticate users,
+              resulting in a 15% reduction in data fetch latency.</li>
           </ul>
         </Card>
       </section>
@@ -250,7 +250,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 text-center text-muted-foreground">
-        <p>© 2024 • Built with Next.js and Tailwind CSS</p>
+        <p>© 2025 • Built with Next.js and Tailwind CSS</p>
       </footer>
     </main>
   );
