@@ -130,7 +130,7 @@ const SkillsImage =
         { name: "React", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
         { name: "TypeScript", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
         { name: "JavaScript", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-        { name: "TailwindCSS", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+        // { name: "TailwindCSS", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
         { name: "NodeJS", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
         { name: "NextJS", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" },
         { name: "HTML5", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
@@ -154,7 +154,7 @@ const SkillsImage =
 
 function Herosection() {
     return (
-        <section className="relative overflow-hidden bg-black text-white">
+        <section className="relative overflow-hidden bg-black text-white pt-24">
             {/* Blurred Gradient Background */}
             <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-purple-700 opacity-30 rounded-full blur-[180px] -translate-x-1/2 -translate-y-1/2 z-0" />
             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-700 opacity-30 rounded-full blur-[180px] translate-x-1/3 -translate-y-1/2 z-0" />

@@ -28,7 +28,7 @@ function JourneySection() {
     ];
     
   return (
-      <section className="container mx-auto px-4 py-4 lg:py-4">
+      <section className=" container mx-auto px-4 py-4 lg:py-12 bg-black">
           <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">My Journey</h2>
           <div className="max-w-3xl mx-auto">
               {journey.map((step, index) => (

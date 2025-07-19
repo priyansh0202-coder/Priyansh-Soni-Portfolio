@@ -60,15 +60,15 @@ function Skills() {
 
     return (
         <section ref={ref}
-            className="container mx-auto px-4 py-16 lg:py-24 ">
+            className="container mx-auto px-4 py-16 lg:py-20 ">
             <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center">Skills</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-7xl mx-auto">
                 {skills.map((skill) => (
                     <div
                         key={skill.name}
-                        className="bg-black/80  p-6 rounded-lg shadow-md transition-all hover:scale-[1.02]"
+                        className="bg-black/80  p-4 rounded-lg shadow-md transition-all hover:scale-[1.02]"
                     >
-                        <div className=" flex justify-between mb-2 text-[20px] font-medium text-white">
+                        <div className=" flex justify-between mb-2 text-[16px] font-medium text-white">
                             <span>{skill.name}</span>
                             <span>{skill.level}%</span>
                         </div>
