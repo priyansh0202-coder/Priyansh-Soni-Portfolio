@@ -7,13 +7,13 @@
 //         "Git", "Docker", "REST APIs", "Material UI", "Bootstrap", "GitHub Actions", "CI/CD"
 //       ];
 //   return (
-//       <section className=" container mx-auto px-4 py-16 lg:py-24 bg-secondary/50">
-//           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Skills</h2>
+//       <section className=" container mx-auto px-4 py-16 lg:py-24 bg-black">
+//           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-white text-center">Skills</h2>
 //           <div className="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
 //               {skills.map((skill) => (
 //                   <span
 //                       key={skill}
-//                       className="px-4 py-2 bg-background rounded-full text-sm font-medium shadow-sm hover:scale-105 transition-transform"
+//                       className="px-4 py-2 bg-secondary-foreground text-white rounded-full text-sm font-medium shadow-sm hover:scale-105 transition-transform"
 //                   >
 //                       {skill}
 //                   </span>
@@ -60,13 +60,13 @@ function Skills() {
 
     return (
         <section ref={ref}
-            className="container mx-auto px-4 py-16 lg:py-20 ">
-            <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center">Skills</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            className="container mx-auto px-4 py-16 lg:py-20 bg-black">
+            <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center text-white">Skills</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto ">
                 {skills.map((skill) => (
                     <div
                         key={skill.name}
-                        className="bg-black/80  p-4 rounded-lg shadow-md transition-all hover:scale-[1.02]"
+                        className="bg-zinc-700/40  p-4 rounded-lg shadow-md transition-all hover:scale-[1.02]"
                     >
                         <div className=" flex justify-between mb-2 text-[16px] font-medium text-white">
                             <span>{skill.name}</span>
