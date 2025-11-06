@@ -181,7 +181,7 @@ function Herosection() {
                 {/* Typewriter */}
                 <h2 className="text-xl md:text-3xl font-bold mb-10 text-white bg-clip-text text-transparent">
                     <Typewriter
-                        words={['Full Stack Developer', "Problem Solver", "Performance Optimizer"]}
+                        words={['Software Developer', "Problem Solver", "Performance Optimizer"]}
                         loop
                         cursor
                         cursorStyle="|"
