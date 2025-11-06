@@ -3,7 +3,7 @@ import { Card } from './ui/card'
 
 function Education() {
   return (
-      <section className="container mx-auto px-4 py-16 lg:py-24  bg-black">
+      <section className=" mx-auto px-4 py-16 lg:py-24  bg-black">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center text-white">Education</h2>
           <div className="max-w-3xl mx-auto space-y-6">
               <Card className="p-6 md:p-8 hover:shadow-lg transition-shadow text-white bg-zinc-800/40">

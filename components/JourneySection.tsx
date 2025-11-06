@@ -94,7 +94,7 @@ function JourneySection() {
     return (
         <section
             id="journey"
-            className="container mx-auto px-4 py-16 bg-black relative overflow-hidden"
+            className=" mx-auto px-4 py-16 bg-black relative overflow-hidden"
         >
             <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-14">
                 My Journey

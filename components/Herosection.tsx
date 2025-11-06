@@ -192,8 +192,8 @@ function Herosection() {
                 </h2>
 
                 {/* Description */}
-                <p className="text-base md:text-lg text-white/50 mb-14 px-4 max-w-4xl mx-auto">
-                    A Full Stack Developer passionate about building scalable web applications with seamless frontend and backend integration. Skilled in React, Next.js, Node.js, and MongoDB, MySQL with a strong focus on problem-solving and performance optimization.
+                <p className="text-base md:text-lg text-white/50 mb-14 px-4 max-w-5xl mx-auto">
+                    A Software Developer skilled in JavaScript, React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB, and MySQL. Experienced in developing and optimizing RESTful APIs, debugging issues, and enhancing application performance. Skilled at problem-solving, collaborating with teams, and quickly adapting to new technologies.
                 </p>
 
                 {/* Social Buttons */}

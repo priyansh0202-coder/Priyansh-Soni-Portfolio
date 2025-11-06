@@ -60,7 +60,7 @@ function Skills() {
 
     return (
         <section ref={ref}
-            className="container mx-auto px-4 py-16 lg:py-20 bg-black">
+            className=" mx-auto px-4 py-16 lg:py-20 bg-black">
             <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center text-white">Skills</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto ">
                 {skills.map((skill) => (

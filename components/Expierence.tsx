@@ -4,7 +4,7 @@ import ScrollAnimation from './ScrollAnimation'
 
 function Expierence() {
   return (
-      <section id="experience" className="container mx-auto px-4 py-16 lg:py-24 bg-black">
+      <section id="experience" className=" mx-auto px-4 py-16 lg:py-24 bg-black">
               <h2 className="text-3xl md:text-3xl font-bold mb-8 text-center text-white">Experience</h2>
           <div className="relative w-full max-w-6xl mx-auto ">
 
