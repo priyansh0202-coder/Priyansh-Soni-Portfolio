@@ -6,6 +6,26 @@ import { Github, ExternalLink } from "lucide-react";
 function Project() {
   const projects = [
     {
+      title: "Job Portal Application",
+      description:
+        "Built full-stack job portal with role-based authentication (User/Admin) supporting job postings, applications, and candidate tracking. Developed secure RESTful APIs with JWT token-based authentication and password encryption using Bcrypt.",
+      tech: [
+        "Next.js",
+        "React",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "JWT",
+        "Role-Based Authentication",
+      ],
+      links: {
+        live: "https://job-portal-eosin-three.vercel.app/",
+        github:
+          "https://github.com/priyansh0202-coder/Job-Portal",
+      },
+    },
+    {
       title: "WorkManager App",
       description:
         "Task management application built with Next.js, React, and MongoDB. Features include secure authentication, responsive design, and efficient task organization.",
@@ -35,17 +55,17 @@ function Project() {
           "https://github.com/priyansh0202-coder/Streamify-Video-Application",
       },
     },
-    {
-      title: "Property Rental Application",
-      description:
-        "A property rental platform built using React.js, Material UI, Axios, and Bayut API allowing users to browse, search, and book rental properties.",
-      tech: ["React", "Material UI", "Bayut API", "Responsive Design"],
-      links: {
-        live: "https://property-rental-application.vercel.app/",
-        github:
-          "https://github.com/priyansh0202-coder/Property-Rental-Application",
-      },
-    },
+    // {
+    //   title: "Property Rental Application",
+    //   description:
+    //     "A property rental platform built using React.js, Material UI, Axios, and Bayut API allowing users to browse, search, and book rental properties.",
+    //   tech: ["React", "Material UI", "Bayut API", "Responsive Design"],
+    //   links: {
+    //     live: "https://property-rental-application.vercel.app/",
+    //     github:
+    //       "https://github.com/priyansh0202-coder/Property-Rental-Application",
+    //   },
+    // },
     {
       title: "Chat Application",
       description:
