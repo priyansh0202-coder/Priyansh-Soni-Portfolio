@@ -15,40 +15,30 @@ function Expierence() {
             Software Developer
           </h3>
           <p className="text-white mb-2">Infusyx Services Pvt Ltd | Pune</p>
-          <p className="text-sm text-white mb-4">April 2025 - Present</p>
+          <p className="text-sm text-white mb-4">March 2025 - February 2026</p>
           <ScrollAnimation direction="up" delay={0.3}>
             <ul className="list-disc md:px-8 space-y-3 text-white/60">
               <li>
-                Developed and maintained full-stack features for Upzyne CRM
-                platform as part of a 10 member development team, utilizing
-                React.js, Next.js, Node.js, Express.js, and PostgreSQL to
-                deliver scalable enterprise solutions.
+                Developed and maintained full-stack features using React.js, Next.js, Node.js, Express.js, and PostgreSQL.
               </li>
               <li>
-                Built RESTful APIs for critical workflows, including lead
-                management and form submissions, implementing JWT-based
-                role-based authentication (RBAC) with protected routes and
-                authorization middleware on both frontend and backend.
+                Built RESTful APIs using Node.js Express.js with JWT authentication, role-based access control, and secure
+                workflows.
               </li>
               <li>
-                Reduced runtime errors by 30% via strict TypeScript type
-                enforcement and consistent code reviews.
+                Reduced runtime errors through strict TypeScript type enforcement and consistent code review practices.
               </li>
               <li>
-                Optimized application performance using code splitting, lazy
-                loading, and component-level optimizations for faster load times
-                and smoother UX.
+                Enhanced application performance using code splitting, lazy loading, and component-level optimizations for
+                faster load times and smoother UX.
               </li>
               <li>
-                Managed PostgreSQL database operations, including schema design,
-                query optimization, and data migrations for new feature
-                releases.
+                Optimized PostgreSQL queries and indexing strategies to improve database performance and API response
+                times.
               </li>
-              {/* <li>
-                Collaborated with backend teams to enhance APIs, improve
-                authentication logic, and integrate complex business workflows
-                into frontend applications.
-              </li> */}
+              <li>
+                Debugged and resolved production issues, improving application stability and overall user experience.
+              </li>
               {/* <li>
                 Specialized in scalable architecture design, focusing on
                 reusable component libraries, performance tuning, and API-driven

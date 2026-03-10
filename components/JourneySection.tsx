@@ -83,7 +83,7 @@ function JourneySection() {
             icon: Server,
         },
         {
-            date: "April 2025",
+            date: "March 2025",
             title: "Joined Infusyx",
             description:
                 "Began my professional journey as a Software Developer at Infusyx, building scalable enterprise solutions.",
