@@ -89,6 +89,13 @@ function JourneySection() {
                 "Began my professional journey as a Software Developer at Infusyx, building scalable enterprise solutions.",
             icon: Briefcase,
         },
+        {
+            date: "May 2026",
+            title: "Joined Micro Integrated",
+            description:
+                "Started as a Full Stack Developer at Micro Integrated, engineering enterprise-grade RESTful APIs and leading development across backend and frontend modules.",
+            icon: Briefcase,
+        },
     ];
 
     return (

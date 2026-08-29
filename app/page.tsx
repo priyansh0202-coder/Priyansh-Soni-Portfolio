@@ -52,7 +52,7 @@ import ProjectsInfusyx from "@/components/ProjectsInfusyx";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden bg-black text-white">
       {/* Background */}
       <div className="pointer-events-none fixed inset-0 z-20">
         <div
