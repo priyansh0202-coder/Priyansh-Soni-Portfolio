@@ -198,17 +198,17 @@ function InfusyxProjects() {
      * Generates the SVG points for the line graph.
      */
     const generatePoints = (
-        data,
-        width = 300,
-        height = 130,
-        padding = 12
+        data: number[],
+        width: number = 300,
+        height: number = 130,
+        padding: number = 12
     ) => {
         const max = Math.max(...data);
         const min = Math.min(...data);
         const range = max - min || 1;
 
         return data
-            .map((value, index) => {
+            .map((value: number, index: number) => {
                 const x =
                     padding +
                     (index * (width - padding * 2)) / (data.length - 1);
@@ -225,10 +225,10 @@ function InfusyxProjects() {
     };
 
     const generateAreaPoints = (
-        data,
-        width = 300,
-        height = 130,
-        padding = 12
+        data: number[],
+        width: number = 300,
+        height: number = 130,
+        padding: number = 12
     ) => {
         const linePoints = generatePoints(
             data,
@@ -249,6 +249,11 @@ function InfusyxProjects() {
         width = 300,
         height = 130,
         large = false,
+    }: {
+        data: number[];
+        width?: number;
+        height?: number;
+        large?: boolean;
     }) => {
         const linePoints = generatePoints(
             data,
